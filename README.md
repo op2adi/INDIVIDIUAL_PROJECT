@@ -24,7 +24,7 @@ pip install torch transformers scikit-learn
 
 # Navigate to specified directory
 
-  ```cd INDIVIDUAL_PROJECT```
+  ```cd INDIVIDIUAL_PROJECT```
 
 # Run the script:
 ```python sentiment_analysis.py```

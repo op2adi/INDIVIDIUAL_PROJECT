@@ -18,7 +18,8 @@ git clone https://github.com/op2adi/INDIVIDIUAL_PROJECT.git
   
 # Code Structure
 sentiment_analysis.py: The main script containing the implementation of the sentiment analysis model, training, evaluation, and prediction functions.
-  ```pip install torch transformers scikit-learn
+```bash
+pip install torch transformers scikit-learn
 ```
 
 # Navigate to specified directory

@@ -192,7 +192,7 @@ if __name__ == "__main__":
     train(model, train_dataloader, val_dataloader, num_epochs=30, lr=2e-5)
 
     # Evaluate the model on CPU
-    test_loss, test_accuracy = evaluate(model, test_dataloader, nn.CrossEntropyLoss(), 'cpu')
+    test_loss, test_accuracy = evaluate(model, test_dataloader, nn.CrossEntropyLoss(), 'cpu') # i have used cpu because i dont have gpu you can switch to gpu 
     print(f'Test Loss: {test_loss:.4f}, Test Accuracy: {test_accuracy:.4f}')
 
     # Example usage of predict function on CPU
